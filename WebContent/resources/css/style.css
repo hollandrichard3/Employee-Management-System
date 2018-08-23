@@ -1,0 +1,190 @@
+html, body {
+	background: #fff;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	background: linear-gradient(to right, #FFF , #f5f5f5);
+	float: left;
+	width: 100%;
+}
+
+#logo {
+	background-image: url('../images/KGalogo.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	width: 215px;
+	height: 215px;
+}
+
+#header{
+	float: left;
+	height: 185px;
+	padding: 15px 0px 15px 0px;
+	color: #000;
+}
+
+#header h2 {
+	float:left;
+	margin-top: 163px;
+}
+
+#spacer {
+	border-bottom: 1px solid #000;
+	float: right;
+	width: 100%;
+	height: 20px;
+	background: #BBB;
+}
+
+#main{
+	float: left;
+	width: 100%;
+	background: #f5f5f5;
+}
+
+#leftmenu {
+	float: left;
+	width: 14%;
+	text-align:center;
+}
+
+#leftmenu #long-button{
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#container {
+	float: right;
+	width: 84%;
+	border-left: 1px solid #d4d4d4;
+	padding: 0px 0px 20px 15px;
+	background: #f5f5f5;
+}
+
+#container h3 {
+	color: #000;
+}
+
+#topmenu {
+	width: 100%;
+	height: 30px;
+	padding: 10px 0px 15px 0px;
+	background: #f5f5f5;
+}
+
+#topmenu h3 {
+	float: left;
+	margin: 5px 0px 0px 0px;
+	color: #000;
+}
+
+#create {
+	float: left;
+	color: #FFF
+}
+
+#search {
+	float: right;
+	margin-right: 15px;
+	color: #FFF;
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 100%;
+}
+
+th {
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #f9f9f9;
+	padding: 10px;
+	color: #1d1643;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background: #FFF
+}
+
+tr:nth-child(odd) {
+	background: #BBB
+}
+
+tr.asstManagers {
+	border: 1px solid white;
+	background: #FFF
+}
+
+tr.asstManagers td {
+	padding-bottom: 5px;
+}
+
+.line{
+	border-top: 1px solid gray;
+}
+
+tr.listselect:hover td {
+    background: #3498DB !important;
+}
+
+tr.listselect:hover a {
+    color: #000 !important;
+}
+
+div.innerDiv {
+	text-align: center;
+}
+
+div.innerDiv:nth-child(even) {
+	border-top: 1px solid gray;
+	background: #BBB
+}
+
+div.innerDiv:nth-child(odd) {
+	background: #FFFFFF
+}
+
+div.innerDiv:nth-child(odd) {
+	
+}
+
+a {
+	color:blue;
+}
+
+.add-button {
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	
+	/*BACKGROUND*/
+	background: linear-gradient(to right, #FFFFFF , #C0C0C0);/*white to silver*/
+	border-top: 3px solid #D3D3D3; /* light grey*/
+	border-right: 3px solid #A9A9A9;/* dark grey*/
+	border-bottom: 3px solid #808080; /*grey*/
+	border-left: 3px solid #FFF; /*white*/
+	box-shadow: 3px 3px;
+}
+
+.add-button:hover {
+	background: linear-gradient(to left, #FFFFFF , #C0C0C0);/*white to silver*/
+}
+
+#long-button {
+	width: 120px;
+}
